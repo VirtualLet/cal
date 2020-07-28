@@ -3,14 +3,21 @@
 <head>
 <title>Calculadora Ejemplo</title> <meta charset="utf-8">
 <script type="text/javascript">
+<<<<<<< HEAD
 function inverse(){
     var num= document.getElementById("n1");
     num.value=1/num.value;
+=======
+function square(){
+    var num= document.getElementById("n1");
+    num.value=num.value*num.value;
+>>>>>>> master
 }
 </script>
 </head>
 <body>
     Number:
+<<<<<<< HEAD
     <input type="text" id="n1" onclick="empty()">
     <br>
     <button onclick="inverse()">1/x</button>
@@ -18,3 +25,14 @@ function inverse(){
 
 
 </html>
+=======
+    <input type="text" id="n1">
+    <br>
+    <button onclick="square()">x <sup>2</sup></button>
+</body>
+
+
+
+
+</html>
+>>>>>>> master
